@@ -10,6 +10,8 @@ import scipy.linalg as lin
 from numpy.linalg import multi_dot as mdot
 from pandas_plink import read_plink
 
+np.warnings = warnings
+
 
 class RefPanel(object):
     CHRCOL = "chrom"
